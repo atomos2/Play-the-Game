@@ -1,0 +1,48 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f6f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container for the game */
+.game-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Styling for buttons */
+button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 25px;
+    margin: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e85b50;
+}
+
+/* Hidden class to manage visibility */
+.hidden {
+    display: none;
+}
+
+/* Styling for the final message */
+#final-message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #ff6f61;
+    font-weight: bold;
+}
